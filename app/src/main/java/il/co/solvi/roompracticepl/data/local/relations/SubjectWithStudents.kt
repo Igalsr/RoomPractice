@@ -16,5 +16,4 @@ data class SubjectWithStudents(
         associateBy = Junction(StudentSubjectCrossRef::class)
     )
     val students: List<Student>
-
 )

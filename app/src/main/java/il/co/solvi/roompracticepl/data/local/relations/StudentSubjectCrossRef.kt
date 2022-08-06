@@ -7,5 +7,4 @@ import androidx.room.Entity
 data class StudentSubjectCrossRef(
     val studentName: String,
     val subjectName: String
-) {
-}
+)
