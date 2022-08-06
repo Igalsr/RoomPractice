@@ -5,6 +5,7 @@ import androidx.room.Relation
 import il.co.solvi.roompracticepl.data.entities.School
 import il.co.solvi.roompracticepl.data.entities.Student
 
+// 1 to N relationship
 data class SchoolWithStudents(
     @Embedded
     val school: School,
